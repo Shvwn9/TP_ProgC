@@ -4,18 +4,15 @@ int main() {
     int a = 16;
     int b = 3;
 
-    // Opérateurs arithmétiques
     int addition = a + b;
     int soustraction = a - b;
     int multiplication = a * b;
     int division = a / b;
     int modulo = a % b;
 
-    // Opérateurs logiques / de comparaison
     int egal = (a == b);
     int superieur = (a > b);
 
-    // Affichage des résultats
     printf("a = %d, b = %d\n\n", a, b);
 
     printf("Addition (a + b) : %d\n", addition);
@@ -24,8 +21,8 @@ int main() {
     printf("Division (a / b) : %d\n", division);
     printf("Modulo (a %% b) : %d\n\n", modulo);
 
-    printf("a est-il égal à b ? : %s\n", egal ? "true" : "false");
-    printf("a est-il supérieur à b ? : %s\n", superieur ? "true" : "false");
+    printf("a est-il égal a b ? : %s\n", egal ? "true" : "false");
+    printf("a est-il supérieur a b ? : %s\n", superieur ? "true" : "false");
 
     return 0;
 }
