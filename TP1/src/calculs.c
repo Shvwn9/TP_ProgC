@@ -4,10 +4,9 @@
 int main() {
     int num1 = 10;
     int num2 = 3;
-    char op = '+'; // Change cette valeur pour tester d'autres opérations
+    char op = '+'; 
 
     int resultat;
-
     printf("num1 = %d, num2 = %d, op = '%c'\n", num1, num2, op);
 
     switch (op) {
@@ -15,12 +14,10 @@ int main() {
             resultat = num1 + num2;
             printf("Résultat (addition) : %d\n", resultat);
             break;
-
         case '-':
             resultat = num1 - num2;
             printf("Résultat (soustraction) : %d\n", resultat);
             break;
-
         case '*':
             resultat = num1 * num2;
             printf("Résultat (multiplication) : %d\n", resultat);
@@ -55,7 +52,6 @@ int main() {
             break;
 
         case '~':
-            // L'opérateur '~' est unaire, s'applique à num1 uniquement
             resultat = ~num1;
             printf("Résultat (NON binaire de num1) : %d\n", resultat);
             break;
