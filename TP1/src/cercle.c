@@ -7,6 +7,7 @@ int main() {
 
     // Saisir le rayon du cercle
     printf("Entrez le rayon du cercle : ");
+    fflush(stdout);
     scanf("%lf", &rayon);
 
     // Calcul de l'aire
