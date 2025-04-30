@@ -2,9 +2,9 @@
 
 int main() {
     int n = 7; 
-    int u0 = 0, u1 = 1, suivant;
+    int u0 = 0, u1 = 1, next;
 
-    printf("Suite de Fibonacci U%d :\n", n);
+    printf("fibonacci U%d :\n", n);
 
     if (n >= 0)
         printf("%d", u0);
@@ -12,10 +12,10 @@ int main() {
         printf(", %d", u1);
 
     for (int i = 2; i <= n; i++) {
-        suivant = u0 + u1;
-        printf(", %d", suivant);
+        next = u0 + u1;
+        printf(", %d", next);
         u0 = u1;
-        u1 = suivant;
+        u1 = next;
     }
 
     printf("\n");
